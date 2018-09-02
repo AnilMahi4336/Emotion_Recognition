@@ -3,7 +3,7 @@
 
 # import the necessary packages
 from config import emotion_config as config
-from pyimagesearch.io import HDF5DatasetWriter
+from lib.io import HDF5DatasetWriter
 import numpy as np
 
 # open the input file for reading (skipping the header), then

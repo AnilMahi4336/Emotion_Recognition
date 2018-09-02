@@ -9,11 +9,11 @@ matplotlib.use("Agg")
 
 # import the necessary packages
 from config import emotion_config as config
-from pyimagesearch.preprocessing import ImageToArrayPreprocessor
-from pyimagesearch.callbacks import EpochCheckpoint
-from pyimagesearch.callbacks import TrainingMonitor
-from pyimagesearch.io import HDF5DatasetGenerator
-from pyimagesearch.nn.conv import EmotionVGGNet
+from lib.preprocessing import ImageToArrayPreprocessor
+from lib.callbacks import EpochCheckpoint
+from lib.callbacks import TrainingMonitor
+from lib.io import HDF5DatasetGenerator
+from lib.nn.conv import EmotionVGGNet
 from keras.preprocessing.image import ImageDataGenerator
 from keras.optimizers import Adam
 from keras.models import load_model
